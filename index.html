@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>متجر Ozh Mc</title>
+<style>
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+background-color: #0f1015;
+color: #ffffff;
+padding: 20px;
+}
+header {
+text-align: center;
+padding: 40px 0;
+border-bottom: 2px solid #202225;
+}
+header h1 {
+color: #5865F2;
+font-size: 2.5rem;
+margin-bottom: 10px;
+}
+header p {
+color: #b9bbbe;
+font-size: 1.1rem;
+}
+.container {
+max-width: 1000px;
+margin: 40px auto;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+gap: 20px;
+}
+.card {
+background-color: #18191c;
+border: 1px solid #2f3136;
+border-radius: 12px;
+padding: 25px;
+text-align: center;
+transition: transform 0.3s ease, border-color 0.3s ease;
+}
+.card:hover {
+transform: translateY(-5px);
+border-color: #5865F2;
+}
+.card h3 {
+font-size: 1.8rem;
+margin-bottom: 15px;
+color: #f6f6f6;
+}
+.price {
+font-size: 1.4rem;
+color: #43b581;
+margin-bottom: 20px;
+font-weight: bold;
+}
+.features {
+list-style: none;
+margin-bottom: 25px;
+text-align: right;
+color: #dcddde;
+}
+.features li {
+margin-bottom: 10px;
+padding-right: 15px;
+position: relative;
+}
+.features li::before {
+content: "✓";
+color: #43b581;
+position: absolute;
+right: 0;
+}
+.btn {
+display: inline-block;
+background-color: #5865F2;
+color: white;
+padding: 12px 25px;
+border-radius: 6px;
+text-decoration: none;
+font-weight: bold;
+transition: background-color 0.2s;
+}
+.btn:hover {
+background-color: #4752c4;
+}
+footer {
+text-align: center;
+margin-top: 50px;
+color: #72767d;
+font-size: 0.9rem;
+border-top: 1px solid #202225;
+padding-top: 20px;
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>💎 متجر Ozh Mc</h1>
+<p>طور تجربتك في السيرفر واحصل على أقوى الرتب والمميزات!</p>
+</header>
+
+<div class="container">
+<!-- رتبة VIP -->
+<div class="card">
+<h3>رتبة VIP</h3>
+<div class="price">5$` / شهرياً</div>
+<ul class="features">
+<li>بادئة VIP مميزة في الشات</li>
+<li>إمكانية حفر مساحة شخصية</li>
+<li>صندوق أدوات إضافي (Kit VIP)</li>
+<li>أمر طيران في اللوبي</li>
+</ul>
+<a href="رابط_ديسكورد_أو_تذكرة_الدعم" class="btn">اشترِ الآن</a>
+</div>
+
+<!-- رتبة MVP -->
+<div class="card">
+<h3>رتبة MVP</h3>
+<div class="price">10`$ / شهرياً</div>
+<ul class="features">
+<li>كل مميزات رتبة VIP</li>
+<li>بادئة MVP الخرافية</li>
+<li>معدات ودروع مطورة (Kit MVP)</li>
+<li>أمر فتح صندوق الحماية بأي مكان</li>
+</ul>
+<a href="رابط_ديسكورد_أو_تذكرة_الدعم" class="btn">اشترِ الآن</a>
+</div>
+</div>
+
+<footer>
+<p>جميع الحقوق محفوظة © 2026 Ozh Mc</p>
+</footer>
+
+</body>
+</html>
