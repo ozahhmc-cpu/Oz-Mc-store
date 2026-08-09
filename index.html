@@ -1,143 +1,117 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>متجر Ozh Mc</title>
-<style>
-* {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-body {
-background-color: #0f1015;
-color: #ffffff;
-padding: 20px;
-}
-header {
-text-align: center;
-padding: 40px 0;
-border-bottom: 2px solid #202225;
-}
-header h1 {
-color: #5865F2;
-font-size: 2.5rem;
-margin-bottom: 10px;
-}
-header p {
-color: #b9bbbe;
-font-size: 1.1rem;
-}
-.container {
-max-width: 1000px;
-margin: 40px auto;
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-gap: 20px;
-}
-.card {
-background-color: #18191c;
-border: 1px solid #2f3136;
-border-radius: 12px;
-padding: 25px;
-text-align: center;
-transition: transform 0.3s ease, border-color 0.3s ease;
-}
-.card:hover {
-transform: translateY(-5px);
-border-color: #5865F2;
-}
-.card h3 {
-font-size: 1.8rem;
-margin-bottom: 15px;
-color: #f6f6f6;
-}
-.price {
-font-size: 1.4rem;
-color: #43b581;
-margin-bottom: 20px;
-font-weight: bold;
-}
-.features {
-list-style: none;
-margin-bottom: 25px;
-text-align: right;
-color: #dcddde;
-}
-.features li {
-margin-bottom: 10px;
-padding-right: 15px;
-position: relative;
-}
-.features li::before {
-content: "✓";
-color: #43b581;
-position: absolute;
-right: 0;
-}
-.btn {
-display: inline-block;
-background-color: #5865F2;
-color: white;
-padding: 12px 25px;
-border-radius: 6px;
-text-decoration: none;
-font-weight: bold;
-transition: background-color 0.2s;
-}
-.btn:hover {
-background-color: #4752c4;
-}
-footer {
-text-align: center;
-margin-top: 50px;
-color: #72767d;
-font-size: 0.9rem;
-border-top: 1px solid #202225;
-padding-top: 20px;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر Ozh Mc</title>
+    <style>
+        body {
+            font-family: Tahoma, sans-serif;
+            background-color: #0d0f12;
+            color: #ffffff;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #5865F2;
+            font-size: 2.5rem;
+            margin-bottom: 5px;
+        }
+        p {
+            color: #b9bbbe;
+        }
+        .card {
+            background-color: #18191c;
+            border: 2px solid #2f3136;
+            border-radius: 12px;
+            padding: 20px;
+            max-width: 400px;
+            margin: 20px auto;
+            text-align: right;
+            transition: 0.3s;
+        }
+        .card:hover {
+            border-color: #5865F2;
+            transform: translateY(-5px);
+        }
+        .card h3 {
+            font-size: 1.8rem;
+            color: #ffffff;
+            text-align: center;
+        }
+        .price {
+            font-size: 1.4rem;
+            color: #57F287;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        ul {
+            padding-right: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+            color: #dcddde;
+        }
+        .btn {
+            display: block;
+            background-color: #5865F2;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            padding: 12px;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin-top: 20px;
+            transition: 0.2s;
+        }
+        .btn:hover {
+            background-color: #4752C4;
+        }
+        footer {
+            margin-top: 40px;
+            color: #72767d;
+            font-size: 0.9rem;
+        }
+    </style>
 </head>
 <body>
 
-<header>
-<h1>💎 متجر Ozh Mc</h1>
-<p>طور تجربتك في السيرفر واحصل على أقوى الرتب والمميزات!</p>
-</header>
+    <h1>متجر Ozh Mc 💎</h1>
+    <p>طور تجربتك في السيرفر واحصل على أقوى الرتب والمميزات!</p>
+    <hr style="border: 0.5px solid #2f3136; width: 60%; margin: 20px auto;">
 
-<div class="container">
-<!-- رتبة VIP -->
-<div class="card">
-<h3>رتبة VIP</h3>
-<div class="price">5$` / شهرياً</div>
-<ul class="features">
-<li>بادئة VIP مميزة في الشات</li>
-<li>إمكانية حفر مساحة شخصية</li>
-<li>صندوق أدوات إضافي (Kit VIP)</li>
-<li>أمر طيران في اللوبي</li>
-</ul>
-<a href="[https://discord.gg/vPSUBd7CY]" class="btn">اشترِ الآن</a>
-</div>
+    <!-- رتبة VIP -->
+    <div class="card">
+        <h3>رتبة VIP</h3>
+        <div class="price">5$ / شهرياً</div>
+        <ul>
+            <li>✓ بادئة VIP مميزة في الشات</li>
+            <li>✓ إمكانية حفر مساحة شخصية</li>
+            <li>✓ صندوق أدوات إضافي (Kit VIP)</li>
+            <li>✓ أمر طيران في اللوبي</li>
+        </ul>
+        <a href="https://discord.gg/vPSUBd7CY" class="btn" target="_blank">شراء عبر الديسكورد</a>
+    </div>
 
-<!-- رتبة MVP -->
-<div class="card">
-<h3>رتبة MVP</h3>
-<div class="price">10`$ / شهرياً</div>
-<ul class="features">
-<li>كل مميزات رتبة VIP</li>
-<li>بادئة MVP الخرافية</li>
-<li>معدات ودروع مطورة (Kit MVP)</li>
-<li>أمر فتح صندوق الحماية بأي مكان</li>
-</ul>
-<a href="[https://discord.gg/vPSUBd7CY]" class="btn">اشترِ الآن</a>
-</div>
-</div>
+    <!-- رتبة MVP -->
+    <div class="card">
+        <h3>رتبة MVP</h3>
+        <div class="price">10$ / شهرياً</div>
+        <ul>
+            <li>✓ كل مميزات VIP</li>
+            <li>✓ بادئة MVP الخرافية</li>
+            <li>✓ معدات ودروع مطورة (Kit MVP)</li>
+            <li>✓ أمر فتح صندوق الحماية بأي مكان</li>
+        </ul>
+        <a href="https://discord.gg/vPSUBd7CY" class="btn" target="_blank">شراء عبر الديسكورد</a>
+    </div>
 
-<footer>
-<p>جميع الحقوق محفوظة © 2026 Ozh Mc</p>
-</footer>
+    <footer>
+        <p>© 2026 Ozh Mc جميع الحقوق محفوظة</p>
+    </footer>
 
 </body>
 </html>
+
