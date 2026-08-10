@@ -33,14 +33,17 @@
         }
         .nav-links {
             margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
         }
         .nav-links a {
             background-color: #2f3136;
             color: #ffffff;
             text-decoration: none;
-            padding: 8px 16px;
-            margin: 0 5px;
-            border-radius: 6px;
+            padding: 10px 20px;
+            border-radius: 8px;
             font-weight: bold;
             transition: 0.2s;
         }
@@ -48,15 +51,18 @@
             background-color: #5865F2;
         }
         .section-container {
-            padding: 40px 20px;
+            padding: 60px 20px;
+            min-height: 80vh;
+            box-sizing: border-box;
+            border-bottom: 3px solid #2f3136;
         }
         .section-title {
             color: #57F287;
-            font-size: 1.8rem;
-            margin-bottom: 20px;
-            border-bottom: 2px solid #2f3136;
+            font-size: 2rem;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #57F287;
             display: inline-block;
-            padding-bottom: 5px;
+            padding-bottom: 8px;
         }
         .container {
             display: flex;
@@ -78,9 +84,10 @@
             transform: translateY(-5px);
         }
         .card h3 {
-            font-size: 1.6rem;
+            font-size: 1.5rem;
             color: #ffffff;
             text-align: center;
+            direction: rtl;
         }
         .price {
             font-size: 1.3rem;
@@ -90,6 +97,8 @@
         }
         ul {
             padding-right: 20px;
+            padding-left: 0;
+            text-align: right;
         }
         li {
             margin-bottom: 10px;
@@ -112,7 +121,7 @@
             background-color: #4752C4;
         }
         footer {
-            margin-top: 50px;
+            margin-top: 0;
             padding: 20px;
             background-color: #18191c;
             color: #72767d;
@@ -125,10 +134,10 @@
 
     <header>
         <h1>متجر Ozh Mc 💎</h1>
-        <p>طور تجربتك في السيرفر واحصل على أقوى الرتب والأدوات الخارقة!</p>
+        <p>طور تجربتك في السيرفر واحصل على أقوى الرتب وأغراض Ozh الخاصة!</p>
         <div class="nav-links">
             <a href="#ranks">قسم الرتب</a>
-            <a href="#god-items">قسم الأغراض الخارقة</a>
+            <a href="#ozh-items">أغراض Ozh الخاصة</a>
         </div>
     </header>
 
@@ -161,11 +170,11 @@
         </div>
     </div>
 
-    <div id="god-items" class="section-container">
-        <div class="section-title">قسم الأغراض الخارقة (God Items)</div>
+    <div id="ozh-items" class="section-container">
+        <div class="section-title">أغراض Ozh الخاصة (God Items)</div>
         <div class="container">
             <div class="card">
-                <h3>طقم درع خارق (God Armor) 🛡️</h3>
+                <h3>درع Ozh الخارق</h3>
                 <div class="price">4$</div>
                 <ul>
                     <li>✓ درع ناذريت مطور بأقصى تشرمات الحماية</li>
@@ -176,7 +185,7 @@
             </div>
 
             <div class="card">
-                <h3>سيف خارق (God Spear) ⚔️</h3>
+                <h3>رمح Ozh الخارق</h3>
                 <div class="price">3$</div>
                 <ul>
                     <li>✓ ضرر هائل وضربة قاضية</li>
@@ -187,7 +196,7 @@
             </div>
 
             <div class="card">
-                <h3>إليطرا خارقة (God Elytra) 🪽</h3>
+                <h3>إليطرا Ozh الخارقة</h3>
                 <div class="price">4$</div>
                 <ul>
                     <li>✓ إليطرا مطورة ومحمية بالكامل</li>
@@ -198,10 +207,10 @@
             </div>
 
             <div class="card">
-                <h3>درع حماية خارق (God Shield) 🛡️</h3>
+                <h3>ترس Ozh الخارق</h3>
                 <div class="price">2$</div>
                 <ul>
-                    <li>✓ درع متين جداً وغير قابل للكسر بسهولة</li>
+                    <li>✓ ترس متين جداً وغير قابل للكسر بسهولة</li>
                     <li>✓ مقاوم للضربات القوية والسهام</li>
                     <li>✓ تصميم متين لجميع المعارك</li>
                 </ul>
@@ -209,7 +218,7 @@
             </div>
 
             <div class="card">
-                <h3>صنارة خارقة (God Fishing Rod) 🎣</h3>
+                <h3>صنارة Ozh الخارقة</h3>
                 <div class="price">2$</div>
                 <ul>
                     <li>✓ تشرمات الحظ والصيد السريع (Luck of the Sea III)</li>
